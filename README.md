@@ -1,13 +1,13 @@
 # markov-passwords
 Generates password phrases using markov chains
 
-This is for generating wordlists of phrases with markov chains.Do NOT use this to generate passwords for actual use as they will be inherently insecure. This program is designed to break weak passwords made from common phrases.
+This is for generating wordlists of phrases with markov chains. Do NOT use this to generate passwords for actual use as they will be inherently insecure. This program is designed to break weak passwords made from common phrases.
   
 ### Usage
 ```
 markov.py [-h] -i INPUT_FILE [-o OUTPUT_FILE] [-n NUMBER_OF_TIMES] [-l MAX_LENGTH]
 ```
--h - display help/useage message and exit  
+-h - display help/usage message and exit  
 -i INPUT_FILE - Text file to read in to generate phrases  
 -o OUTPUT_FILE - File to write phrases to. If this flag is not used it is written to stdout  
 -n NUMBER_OF_TIMES - Number of phrases to generate. Defaults to 1 if nothing is specified  
